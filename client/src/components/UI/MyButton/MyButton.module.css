@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    border: 1px solid #9E9C9C;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-size: 2.4rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #FF5F5F;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color:#FFFFFF;
+}
+
+.wrapper:hover {
+    background: #f03848;
+}
+
+.wrapper:active {
+    background: #9e1821;
+}

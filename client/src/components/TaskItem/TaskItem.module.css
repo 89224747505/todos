@@ -1,0 +1,128 @@
+.wrapper{
+    width: 100%;
+    background: #EBEBEB;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.wrapper:hover {
+    cursor:grab;
+}
+
+.wrapperDisable{
+    width: 100%;
+    background: #EBEBEB;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.wrapperDisable:hover {
+    cursor:not-allowed;
+}
+
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 40rem;
+}
+
+.centerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.centerContainer__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.title {
+    font-weight: 400;
+    font-size:2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.red {
+    color:red;
+    font-weight: 700;
+}
+
+.green {
+    color: green;
+    font-weight: 700;
+}
+.blue {
+    color: blue;
+}
+
+.responsibleExecutor {
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.priority{
+    width: 4rem;
+    height: 4rem;
+}
+
+.closeDate {
+    font-weight: 400;
+    font-size: 2rem;
+    padding-left:1.5rem;
+}
+
+.status {
+    font-size:1.2rem;
+    padding-top:1rem
+}
+
+.checkbox {
+    width: 4rem;
+    height: 4rem;
+    border: 0.3rem solid #A9A9A9;
+    border-radius: 0.5rem;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.trash {
+    width: 3rem;
+    height: 3rem;
+    margin-left:1rem
+}
+
+.trash img:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,223 @@
+.modalContainter {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,0.5);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalForm {
+    width: 77rem;
+    background-color: #FFFFFF;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    position: relative;
+}
+
+.titleForm {
+    font-size: 3.2rem;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+.containerTitleDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.containerTitle {
+    display: flex;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    align-items: center;
+}
+
+.containerTitle > div {
+    font-size:1.6rem;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.containerTitle > input {
+    width: 53rem;
+    height: 4rem;
+    border: 1px solid #9E9C9C;
+    border-radius: 5px;
+    font-family:'Montserrat';
+    font-size:1.6rem;
+    padding: 0.5rem;
+}
+
+.containerDescription {
+    display: flex;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+.containerDescription > div {
+    font-size:1.6rem;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.containerDescription > textarea {
+    width: 53rem;
+    height: 12rem;
+    resize: none;
+    border: 1px solid #9E9C9C;
+    border-radius: 5px;
+    font-family:'Montserrat';
+    font-size:1.6rem;
+    padding: 0.5rem;
+}
+
+.containerTitle > div {
+    font-size:1.6rem;
+    font-weight: 300;
+}
+
+.containerRequisites{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.contarinerRequisites__left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 5rem;
+}
+
+.containerCloseDate {
+    display: flex;
+    align-items: center;
+}
+
+.containerCloseDate > div {
+    font-size:1.6rem;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.containerCloseDate > input {
+    width: 15rem;
+    height: 4rem;
+    border: 1px solid #9E9C9C;
+    border-radius: 5px;
+    font-family:'Montserrat';
+    font-size:1.6rem;
+    padding: 0.5rem;
+}
+
+.containerExecutor {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.containerExecutor > div {
+    font-size:1.6rem;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.select {
+    display: flex;
+    padding: 0.5rem;
+    border: 1px solid #9E9C9C;
+    border-radius: 5px;
+    width: 25rem;
+    height: 4rem;
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.selectRight {
+    width: 12rem;
+}
+
+.contarinerRequisites__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    align-items: flex-end;
+    padding-right: 5rem;
+}
+
+.containerPriority {
+    display: flex;
+    align-items: center;
+}
+
+.containerPriority > div {
+    font-size:1.6rem;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.containerStatus {
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+
+}
+
+.containerStatus > div:first-child {
+    font-size:1.6rem;
+    font-weight: 300;
+    padding-right: 2rem;
+}
+
+.textStatus {
+    font-size:1.6rem;
+    font-weight: 300;
+    color:red;
+}
+
+.buttonCreate {
+  margin: 5rem 0;
+}
+
+.exitButton {
+    position: absolute;
+    top:0rem;
+    right:1.5rem;
+    color:black;
+    font-size: 3rem;
+    font-weight:300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition:0.5s;
+}
+.exitButton:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight:700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: 12.5rem;
+    left:5rem;
+    color:red;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}

@@ -1,0 +1,89 @@
+.wrapper {
+    flex:1;
+    background: #2B2B2B;
+    background: linear-gradient(180deg, #161616, #FFFFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.loading {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: 100;
+}
+
+.authForm {
+    width: 60rem;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.25));
+}
+
+.authFormTopMenu {
+    width: 60rem;
+    height: 10rem;   
+    background: #FF5F5F;
+    border-radius: 2rem 2rem 0rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom:-2.5rem;
+    left:5rem;
+    color:red;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+.authChk {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color:#FFFFFF;
+    font-family: 'Montserrat';
+    transition: 0.3s;
+}
+
+.authChk:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.checked {
+    text-decoration:underline;
+}
+
+.inputLogin {
+    padding: 5rem 5rem 1.5rem 5rem;
+}
+
+.inputs {
+    padding: 1.5rem 5rem 1.5rem 5rem;
+}
+
+.buttonEnter {
+    padding: 2.5rem 14.5rem;
+    margin-bottom: 2rem;
+}
+
+.select {
+    display: flex;
+    padding: 1.5rem 1.5rem 1.5rem 2rem;
+    border: 1px solid #9E9C9C;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;  
+    font-family: 'Montserrat';
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding-left: 1rem;
+}

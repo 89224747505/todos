@@ -1,0 +1,49 @@
+.taskFormTopMenu {
+    width: 77rem;
+    height: 10rem;   
+    background: #FF5F5F;
+    border-radius: 2rem 2rem 0rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.taskDateSelection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:black;
+    font-family: 'Montserrat';
+    font-size: 2.4rem;
+    font-weight:600;
+}
+
+.taskDateSelection > div {
+    padding: 2rem 5.7rem;
+}
+
+.taskDateSelection >div:hover {
+    cursor: pointer;
+}
+
+.taskChk {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color:#FFFFFF;
+    font-family: 'Montserrat';
+    transition: 0.3s;
+}
+
+.taskChk:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.checkedTopMenu {
+    text-decoration:underline;
+}
+
+.checkedDateMenu {
+    background-color:#FCF200;
+}
